@@ -1,0 +1,8 @@
+def fibonacci(numero):
+    a, b = 0, 1
+    while a < numero:
+        a, b = b, a + b
+    if a == numero:
+        print(numero, 'pertence à sequência de Fibonacci')
+    else:
+        print(numero, 'não pertence à sequência de Fibonacci')
